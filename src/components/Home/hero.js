@@ -22,7 +22,12 @@ function Hero() {
             animate={{x:0}}
             transition={{delay:0.5,duration:0.7}}
             className='text-white text-6xl font-bold'>Bubble</motion.h3> 
-            <img src='../asset/hero1.png' className='-z-10 -mt-10 md:-mt-32  w-[40rem]' alt='' />
+            <Image
+             src="/asset/hero1.webp"
+             alt="Picture of the author"
+             width={620}
+             height={620}
+            className='-z-10 -mt-10 md:-mt-32  ' />
          </div>
          <div className='w-full md:w-5/12 md:mt-40 px-5 '>
             <h3 className='text-white text-3xl font-semibold font-poppins'>Pilihan terbaik untuk perawatan barang kesayangan anda</h3>

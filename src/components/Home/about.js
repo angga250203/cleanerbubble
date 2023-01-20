@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function About() {
   return (
@@ -7,7 +8,11 @@ function About() {
             <h3 className='text-gray-300 font-bold text-3xl text-center py-20 md:py-16'>Tentang kami</h3>
            <div className='flex flex-wrap '>
             <div className='w-full md:w-1/2 py-2 md:py-5 mb-5 px-12'>
-                <img src='../asset/About.png'/>
+                <Image
+                 src="/asset/about.webp"
+                 alt="Picture of the author"
+                 width={350}
+                 height={350} />
             </div>
             <div className='w-full md:w-1/2 mt-5 md:mt-0'>
                 <h3 className='text-2xl font-semibold font-poppins'>Cleaner Bubble</h3>

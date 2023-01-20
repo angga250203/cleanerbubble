@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function Footer() {
   return (
@@ -6,7 +7,10 @@ function Footer() {
       <div className='border-b-2 py-12 border-gray-300 flex flex-wrap md:space-x-12 lg:space-x-32'>
         <div className='w-full md:w-4/12 mt-32 '>
             <div className=''>
-                <img src='../asset/logo.png' className='bg-black rounded-md w-32 py-5 px-5'/>
+                <Image
+                 alt="Picture of the author"
+                 width={350}
+                 height={350} src='/asset/logo.webp'  className='bg-black rounded-md w-32 py-5 px-5'/>
                 <p className='mt-5 text-gray-500'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
                 <h3 className='mt-4 font-bold'>WhatsApp</h3>
                 <p className='mt-1 text-xl text-gray-600'>+628856787876</p>

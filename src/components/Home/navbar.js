@@ -1,6 +1,7 @@
 import { Transition } from "@headlessui/react";
 import React, { useState,useEffect } from "react";
 import { Link } from "react-scroll";
+import Image from "next/image";
 
 function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
@@ -28,8 +29,13 @@ function Navbar() {
 				<div className="w-full">
 					<div className="flex items-center h-20 max-w-6xl mx-auto">
 						<div className="flex items-center  mx-5  justify-between w-full">
-							<div className=" justify-center items-center py-4">
-                                <img src="../asset/logo.png" className="w-16 md:w-20" alt=""/>
+							<div className=" justify-center items-center py-4"> 
+							<Image
+									src="/asset/logo.webp"
+									alt="Picture of the author"
+									width={70}
+									height={70}
+									/>
 							</div>
 							<div className="hidden md:block">
 								<div className="ml-10 flex items-baseline space-x-3">
