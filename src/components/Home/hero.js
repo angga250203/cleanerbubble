@@ -4,9 +4,9 @@ import {motion} from 'framer-motion'
 
 function Hero() {
   return (
-    <div className='  md:h-[75vh] bg-black'>
+    <div className='  md:h-[68vh] bg-black'>
         <div className='max-w-6xl mx-auto  flex flex-wrap'>
-         <div className='w-full md:w-7/12  mt-40 px-5 overflow-hidden'>
+         <div className='w-full md:w-7/12  mt-28 px-5 overflow-hidden'>
             <motion.h3 
             initial={{x:500}}
             animate={{x:0}}
@@ -36,7 +36,7 @@ function Hero() {
             className='-z-10 -mt-10 md:-mt-32  ' />
             </motion.div>
          </div>
-         <div className='w-full md:w-5/12 md:mt-40 px-5 '>
+         <div className='w-full md:w-5/12 md:mt-28 px-5 '>
             <h3 className='text-white text-3xl font-semibold font-poppins'><span className='text-white'>Pilihan terbaik</span> untuk perawatan barang kesayangan anda</h3>
             <p className='text-gray-200 mt-5 font-poppins'>Kami menangani perawatan sepatu, tas dan topi. Kami melakukan perawatan secara profesional, dengan teknik khusus, serta menggunakan alat dan bahan premium untuk melakukan perawatan.Follow sosial media clean bubble untuk mendapat informasi mengenai promo</p>
             <div className='flex space-x-5 py-5 pb-24'>
