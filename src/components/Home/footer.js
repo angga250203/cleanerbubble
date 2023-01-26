@@ -3,6 +3,7 @@ import Image from 'next/image'
 
 function Footer() {
   return (
+    <div className='bg-gray-100'>
     <div className='max-w-6xl mx-auto px-5  '>
       <div className='border-b-2 py-12 border-gray-300 flex flex-wrap md:space-x-12 lg:space-x-32'>
         <div className='w-full md:w-4/12 mt-32 '>
@@ -26,6 +27,7 @@ function Footer() {
         </div>
         </div>
         <p className='py-12 text-center text-gray-500'>© 2020-2022 Cleaner Bubble. All Right Reserved.</p>
+    </div>
     </div>
   )
 }

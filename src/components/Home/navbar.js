@@ -25,7 +25,7 @@ function Navbar() {
   
 	return (
 		<div className="top-0">
-			<nav className= {colorChange ? 'bg-black shadow-xl fixed w-full z-50' : 'shadow-sm bg-black text-white fixed w-full z-50'}>
+			<nav className= {colorChange ? 'bg-white text-black shadow-xl fixed w-full z-50' : 'shadow-sm bg-black text-white fixed w-full z-50'}>
 				<div className="w-full">
 					<div className="flex items-center h-20 max-w-6xl mx-auto">
 						<div className="flex items-center  mx-5  justify-between w-full">
@@ -33,29 +33,30 @@ function Navbar() {
 							<Image
 									src="/asset/logo.webp"
 									alt="Picture of the author"
-									width={70}
-									height={70}
+									width={75}
+									height={75}
+									className="bg-black px-3 py-3 rounded-md"
 									/>
 							</div>
 							<div className="hidden md:block">
 								<div className="ml-10 flex items-baseline space-x-3">
 									<Link
 										activeClass="Home"
-										to="about"
+										href="/"
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="text-white cursor-pointer hover:bg-white py-2 px-5 transition-all rounded-md hover:text-black"
+										className=" cursor-pointer hover:bg-white py-2 px-5 transition-all rounded-md hover:text-black"
 									>
 										Home
 									</Link>
 									<Link
 										activeClass="about"
-										to="about"
+										href="/about"
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="text-white cursor-pointer hover:bg-white py-2 px-5 transition-all rounded-md hover:text-black	"
+										className=" cursor-pointer hover:bg-white py-2 px-5 transition-all rounded-md hover:text-black	"
 									>
 										About
 									</Link>
@@ -65,7 +66,7 @@ function Navbar() {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="text-white cursor-pointer hover:bg-white py-2 px-5 transition-all rounded-md hover:text-black"
+										className=" cursor-pointer hover:bg-white py-2 px-5 transition-all rounded-md hover:text-black"
 									>
 										Projects
 									</Link>
@@ -76,7 +77,7 @@ function Navbar() {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="text-white cursor-pointer hover:bg-white py-2 px-5 transition-all rounded-md hover:text-black"
+										className=" cursor-pointer hover:bg-white py-2 px-5 transition-all rounded-md hover:text-black"
 									>
 										Services
 									</Link>
@@ -87,7 +88,7 @@ function Navbar() {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="text-white cursor-pointer hover:bg-white py-2 px-5 transition-all rounded-md hover:text-black"
+										className=" cursor-pointer hover:bg-white py-2 px-5 transition-all rounded-md hover:text-black"
 									>
 										Contact
 									</Link>

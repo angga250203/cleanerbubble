@@ -9,6 +9,11 @@ module.exports = {
       fontFamily:{
         'poppins':['Poppins','sans-serif']
       },
+      backgroundImage: {
+        'aboutbg': "url('/asset/bgsepatu.webp')",
+        'about1': "url('/asset/about1.jpg')",
+        
+      },
     },
   },
   plugins: [],
