@@ -1,5 +1,5 @@
 import Image from "next/image";
-import {other} from '../../pages/data'
+import {other} from '../data'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";

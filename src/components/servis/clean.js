@@ -2,7 +2,7 @@ import Image from "next/image";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import {jasa} from '../../pages/data'
+import {jasa} from '../data'
 
 
 
