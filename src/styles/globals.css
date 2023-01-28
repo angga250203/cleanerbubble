@@ -107,9 +107,8 @@ button {
     transform: rotate(-45deg) translate(6.5px, -6.5px);
   }
   
-
-  
   .navbar-dropdown {
     height: calc(100vh - 100%);
   }
+  
   

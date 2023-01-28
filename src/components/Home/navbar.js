@@ -28,7 +28,7 @@ export default function Navbar() {
   }, [scrollPos]);
 
   return (
-    <nav className="bg-black relative">
+    <nav className="bg-transparant relative">
       <div className="max-w-6xl mx-auto px-5 ">
         <div className="h-24 md:h-20 p-5 md:py-6 lg:px-5 flex items-center justify-between z-20 bg-tertiary-300 relative">
           {/* Icon */}
@@ -49,23 +49,23 @@ export default function Navbar() {
               isOpen ? "open" : ""
             } flex flex-col items-center w-fit gap-[7px] cursor-pointer md:hidden z-20`}
           >
-            <span className="transition-all duration-500 ease-in-out h-[4px] w-7 bg-white rounded-full"></span>
-            <span className="transition-all duration-500 ease-in-out h-[4px] w-7 bg-white rounded-full"></span>
-            <span className="transition-all duration-500 ease-in-out h-[4px] w-7 bg-white rounded-full"></span>
+            <span className="transition-all duration-500 ease-in-out h-[4px] w-7 bg-black rounded-full"></span>
+            <span className="transition-all duration-500 ease-in-out h-[4px] w-7 bg-black rounded-full"></span>
+            <span className="transition-all duration-500 ease-in-out h-[4px] w-7 bg-black rounded-full"></span>
           </div>
 
           {/* Menu */}
           <div className="hidden md:flex items-center md:gap-4 lg:gap-8 text-sm lg:text-base fontLinkbody">
-		  <Link href="/" className="text-white">
+		  <Link href="/" className="font-semibold">
               Home
             </Link>
-            <Link href="/about" className="text-white">
+            <Link href="/about" className="font-semibold">
               About
             </Link>
-            <Link href="/services" className="text-white">
+            <Link href="/services" className="font-semibold">
               Services
             </Link>
-            <Link href="/blog" className="text-white">
+            <Link href="/blog" className="font-semibold">
               Blog
             </Link>
           </div>
