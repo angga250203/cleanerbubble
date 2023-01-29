@@ -26,9 +26,8 @@ export default function Home() {
       <Pelayanan/>
       <About/>  
       <Jasa/>
-      <Why/>
-      <Blogawal/>
-      <Footer/>
+      
+   
     </>
   )
 }

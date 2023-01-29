@@ -12,6 +12,7 @@ module.exports = {
       backgroundImage: {
         'aboutbg': "url('/asset/bgsepatu.webp')",
         'about1': "url('/asset/about1.jpg')",
+        'img': "url('/asset/bgg.png')",
         
       },
     },

@@ -28,7 +28,7 @@ export default function Navbar() {
   }, [scrollPos]);
 
   return (
-    <nav className="bg-transparant relative">
+    <nav className="bg-transparent relative">
       <div className="max-w-6xl mx-auto px-5 ">
         <div className="h-24 md:h-20 p-5 md:py-6 lg:px-5 flex items-center justify-between z-20 bg-tertiary-300 relative">
           {/* Icon */}
