@@ -111,4 +111,12 @@ button {
     height: calc(100vh - 100%);
   }
   
-  
+
+  .box {
+    display: inline-block;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    padding: 1px;
+    border-radius: 50%;
+   }

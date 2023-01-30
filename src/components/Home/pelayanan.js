@@ -36,8 +36,8 @@ function Pelayanan() {
           alt="Picture of the author"
           width={170}
           height={170} src="/asset/cs.png" className='absolute -top-20 left-1/2 -translate-x-1/2'/> 
-          <h3 className='text-white text-2xl pb-7 font-bold mt-32 px-5'>Customer services</h3>
-          <p className='text-white px-5 text-lg'>customer service yang responsif dan siap untuk melayani anda</p>
+          <h3 className='text-white text-4xl pb-7 font-bold mt-32 px-5'>Customer services</h3>
+          <p className='text-white text-2xl font-semibold px-5 '>customer service yang responsif dan siap untuk melayani anda</p>
           </div>
 
 
@@ -46,8 +46,8 @@ function Pelayanan() {
           alt="Picture of the author"
           width={170}
           height={170} src="/asset/gg.png" className='absolute -top-20 left-1/2 -translate-x-1/2'/> 
-          <h3 className='text-white text-2xl pb-7 font-bold mt-32 px-5'>Expert Technician</h3>
-          <p className='text-white px-5 text-lg'>Berpengalaman lebih dari 2 tahun di industri cuci sepatu</p>
+          <h3 className='text-white text-4xl pb-7 font-bold mt-32 px-5'>Expert Technician</h3>
+          <p className='text-white px-5 text-2xl font-semibold'>Berpengalaman lebih dari 2 tahun di industri cuci sepatu</p>
           </div>
 
 
@@ -57,8 +57,8 @@ function Pelayanan() {
           alt="Picture of the author"
           width={170}
           height={170} src="/asset/kr1.png" className='absolute -top-20 left-1/2 -translate-x-1/2'/> 
-          <h3 className='text-white text-2xl pb-7 font-bold mt-32 px-5'>Free Pickup Delivery</h3>
-          <p className='text-white px-5 text-lg'>Pickup delivery gratis dengan jarak maksimal 6 km</p>
+          <h3 className='text-white text-4xl pb-7 font-bold mt-32 px-5'>Free Pickup Delivery</h3>
+          <p className='text-white px-5 text-2xl font-semibold'>Pickup delivery gratis dengan jarak maksimal 6 km</p>
           </div>
         </div>
     </div>

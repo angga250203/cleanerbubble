@@ -49,23 +49,23 @@ export default function Navbar() {
               isOpen ? "open" : ""
             } flex flex-col items-center w-fit gap-[7px] cursor-pointer md:hidden z-20`}
           >
-            <span className="transition-all duration-500 ease-in-out h-[4px] w-7 bg-black rounded-full"></span>
-            <span className="transition-all duration-500 ease-in-out h-[4px] w-7 bg-black rounded-full"></span>
-            <span className="transition-all duration-500 ease-in-out h-[4px] w-7 bg-black rounded-full"></span>
+            <span className="transition-all duration-500 ease-in-out h-[4px] w-7 bg-white rounded-full"></span>
+            <span className="transition-all duration-500 ease-in-out h-[4px] w-7 bg-white rounded-full"></span>
+            <span className="transition-all duration-500 ease-in-out h-[4px] w-7 bg-white rounded-full"></span>
           </div>
 
           {/* Menu */}
           <div className="hidden md:flex items-center md:gap-4 lg:gap-8 text-sm lg:text-base fontLinkbody">
-		  <Link href="/" className="font-semibold">
+		  <Link href="/" className="font-semibold text-white">
               Home
             </Link>
-            <Link href="/about" className="font-semibold">
+            <Link href="/about" className="font-semibold text-white">
               About
             </Link>
-            <Link href="/services" className="font-semibold">
+            <Link href="/services" className="font-semibold text-white">
               Services
             </Link>
-            <Link href="/blog" className="font-semibold">
+            <Link href="/blog" className="font-semibold text-white">
               Blog
             </Link>
           </div>
