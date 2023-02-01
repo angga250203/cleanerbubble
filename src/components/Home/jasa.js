@@ -43,7 +43,7 @@ function Jasa() {
     <div className='bg-gray-900 h-[210vh] md:h-[130vh] '>
     <div className='bg-img h-[60vh] rounded-b-[6rem]'>
     <div className='max-w-6xl mx-auto '>
-        <h3 className='text-center text-3xl md:text-[3rem] pt-24 pb-5  font-bold font-poppins text-white'>Layanan Kami</h3>
+        <h3 className='text-center text-3xl md:text-[3rem] pt-24 pb-5  font-bold font-maison text-white'>Layanan Kami</h3>
         <p className='text-center max-w-3xl mx-auto mb-12 font-poppins text-white'>Kami memberikan berbagai macam layanan untuk perawatan barang kesayangan anda yang akan dikerjakan oleh tim kami yang sudah berpengalaman dan professional.</p>
         <div className='flex flex-wrap justify-center md:space-x-12 lg:space-x-24 mt-32'>
 

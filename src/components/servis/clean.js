@@ -10,58 +10,27 @@ import {jasa} from '../data'
 import React from 'react'
 
 function Clean() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    autoplay: true,
-      autoplaySpeed: 2100,
-      pauseOnHover: true,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          initialSlide: 1
-        }
-      },
-     
-    ]
-  };
+  
     
   return (
-    <>
-     <Slider {...settings}>
+    <div className="max-w-6xl mx-auto flex flex-wrap justify-center ">
       
-       {jasa.map((item) => { 
+         {jasa.map((item) => { 
             return(
-             
-                <div className='w-full px-12 relative py-5' key={item.id} >
-                <Image
-                 alt="Picture of the author"
-                 width={250}
-                 height={250} src={item.img} className='absolute z-10 left-1/2 -translate-x-1/2'/>
-                <h3 className='font-bold text-2xl mt-64 md:mt-56 text-center font-poppins z-20'>{item.name}</h3>
-                <p className='text-center text-gray-600 font-poppins  '>{item.desc}</p>
-            </div>
-           
+              
+              <div className='w-full md:w-4/12 mt-32 bg-gray-800 shadow-2xl mx-5 mb-24 md:mb-0 relative h-[20rem] rounded-[2rem]' key={item.id}>
+        <Image
+        alt="Picture of the author"
+        width={100}
+        height={100} src={item.img} className='absolute z-10 bg-green-500 px-1 py-1 rounded-2xl left-10 shadow-xl shadow-green-500/50 -top-10'/> 
+        <h3 className='text-white text-3xl font-bold mt-28 pb-7 px-5'>{item.name}</h3>
+        <p className='px-5 text-white'>{item.desc}</p>
+        </div>
+            
+          
            )
     })}
-     
-      </Slider>
-    </>
+    </div>
   )
 }
 

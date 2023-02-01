@@ -17,19 +17,12 @@ export default function Services() {
         </Head>
 
       <Navbar/>
-        <div className="bg-aboutbg h-[30vh] md:h-[20vh]   lg:h-[40vh] ">
-                <div className="h-[30vh] md:h-[20vh] lg:h-[40vh]  backdrop-blur-xl ">
-            <h3 className="text-center font-poppins text-3xl md:text-5xl font-bold pt-36 text-white ">OUR SERVICES</h3>
-            </div>
-            </div>
+   
             
-          <div className="max-w-6xl mx-auto px-5">
-            <h3 className="text-4xl font-poppins font-semibold pt-28">Cleaning</h3>
-            <Clean/>
-            <h3 className="text-4xl font-poppins font-semibold pt-28">Repaint</h3>
-            <Repaint/>
-            <h3 className="text-4xl font-poppins font-semibold pt-28">Other</h3>
-            <Other/>
+          <div className="bg-gray-900 -mt-24 py-24">
+          <Clean/>
+       
+
           </div>
 
           <Footer/>

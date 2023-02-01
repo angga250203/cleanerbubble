@@ -6,7 +6,7 @@ function About() {
   return (
     <div className='bg-gray-900 h-[140vh] md:h-[100vh] pt-8 rounded-t-[2rem] md:rounded-t-[5rem]  text-white'>
         <div className='max-w-6xl mx-auto  px-5'>
-            <h3 className='text-white font-bold text-3xl md:text-5xl font-poppins text-center py-20 md:py-16'>Tentang kami</h3>
+            <h3 className='text-white font-bold text-3xl md:text-5xl font-maison text-center py-20 md:py-16'>Tentang kami</h3>
            <div className='flex flex-wrap '>
             <div className='w-full md:w-1/2 py-2 md:py-5 mb-5 px-12'>
                 <Image

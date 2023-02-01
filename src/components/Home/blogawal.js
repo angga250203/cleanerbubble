@@ -13,42 +13,36 @@ function Blogawal() {
         <div className='max-w-6xl mx-auto px-5'>
             <h3 className='text-center font-bold text-5xl  pt-20 pb-2 font-poppins'>Berita terbaru</h3>
             <p className='text-gray-700 text-center font-poppins'>Temukan berita seputar sepatu dan lain-lain terbaru yang dapat menambah wawasan kita</p>
-            <div className='flex flex-wrap justify-center  pb-24 md:space-x-12 lg:space-x-24 mt-16'>
+            <div className='flex flex-wrap justify-center mt-24  pb-24 md:space-x-12 lg:space-x-24 '>
                 <div className='w-full md:w-3/12 relative pb-20'>
                     <Image
                  alt="Picture of the author"
                  width={350}
-                 height={350} src='/asset/adidasg.webp' className='h-[12rem] w-[17rem] object-cover rounded-md absolute left-1/2 -translate-x-1/2'/>
-                    <h3 className=' mt-52 text-center px-3 md:text-start pb-2 font-semibold text-2xl font-poppins'>Cerita dibalik sepatu Jordan</h3>
-                    <p className='bg-gray-400 py-1 mx-5 text-white px-4 rounded-full w-24'>Informasi</p>
-                    <p className='text-gray-400 px-5'>25 agustus 2022</p>
-                   
+                 height={350} src='/asset/adidasg.webp' className='h-[10rem] w-[18rem] object-cover rounded-md absolute left-1/2 -translate-x-1/2'/>
+                    <h3 className=' mt-44 mx-9 md:mx-0  pb-2 font-semibold text-2xl font-poppins '>Cerita dibalik sepatu Jordan</h3>
+                    <p className='text-gray-500 mx-9 md:mx-0'>Informasi/ 23 januari 2023</p>
+                    
+                  
                 </div>
-
-
                 <div className='w-full md:w-3/12 relative pb-20'>
                     <Image
                  alt="Picture of the author"
                  width={350}
-                 height={350} src='/asset/adidasg.webp' className='h-[12rem] w-[17rem] object-cover rounded-md absolute left-1/2 -translate-x-1/2'/>
-                    <h3 className=' mt-52 text-center px-3 md:text-start pb-2 font-semibold text-2xl font-poppins'>Cerita dibalik sepatu Jordan</h3>
-                    <p className='bg-gray-400 py-1 mx-5 text-white px-4 rounded-full w-24'>Informasi</p>
-                    <p className='text-gray-400 px-5'>25 agustus 2022</p>
-                   
+                 height={350} src='/asset/casual.jpg' className='h-[10rem] w-[18rem] object-cover rounded-md absolute left-1/2 -translate-x-1/2'/>
+                    <h3 className=' mt-44 mx-9 pb-2 md:mx-0 font-semibold text-2xl font-poppins '>Adidas Spezial identik dengan suporter</h3>
+                    <p className=' text-gray-500 mx-9 md:mx-0'>Informasi/ 23 januari 2023</p>
                 </div>
-
-                <div className='w-full md:w-3/12 relative pb-10'>
+                <div className='w-full md:w-3/12 relative pb-20'>
                     <Image
                  alt="Picture of the author"
                  width={350}
-                 height={350} src='/asset/airmax97.jpg' className='h-[12rem] w-[17rem] object-cover rounded-md absolute left-1/2 -translate-x-1/2'/>
-                    <h3 className=' mt-52 text-center px-3 md:text-start pb-2 font-semibold text-2xl font-poppins'>Cerita dibalik sepatu Jordan</h3>
-                    <p className='bg-gray-400 py-1 mx-5 text-white px-9 rounded-full w-24'>Tips</p>
-                    <p className='text-gray-400 px-5'>25 agustus 2022</p>
+                 height={350} src='/asset/airmax97.webp' className='h-[10rem] w-[18rem] object-cover rounded-md absolute left-1/2 -translate-x-1/2'/>
+                    <h3 className=' mt-44 mx-9 pb-2 md:mx-0 font-semibold text-2xl font-poppins '>Asal usul bentuk dari airmax-97</h3>
+                    <p className=' text-gray-500 mx-9 md:mx-0'>Informasi/ 23 januari 2023</p>
+                    
                 </div>
                
-               
-            </div>
+               </div>
 
         </div>
         <div className='flex justify-center'>

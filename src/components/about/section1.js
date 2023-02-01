@@ -1,46 +1,41 @@
 import React from 'react'
 import {motion} from 'framer-motion'
+import Image from 'next/image'
 
 function Section1() {
   return (
   
-        <div className="flex flex-wrap lg:space-x-12 items-center py-12">
-          <div className="w-full lg:w-4/12 relative py-12 text-center mt-12 ">
-            <h3 className='text-3xl font-bold md:text-5xl lg:text-3xl '>Nilai Yang Kami Pegang</h3>
-            <p className='text-gray-500 py-3 md:text-xl lg:text-md'>ada beberapa Nilai-Nilai yang kami penggang ketika menjalankan usaha ini</p>
-     
-          </div>
-          <div className="w-full lg:w-7/12 py-3 md:py-12">
-            <div className="flex flex-wrap px-3 justify-center md:px-0">
+    <div className='flex flex-wrap justify-center pb-24 mt-28  lg:space-x-24'>
+    <div className='w-full relative md:w-3/12 mb-24 md:mb-0 bg-green-600 h-[25rem] rounded-[2rem] shadow-2xl shadow-green-500/40'>
+    <Image
+    alt="Picture of the author"
+    width={170}
+    height={170} src="/asset/puas.png" className='absolute -top-20 left-1/2 -translate-x-1/2'/> 
+    <h3 className='text-white text-3xl pb-7 font-bold mt-32 px-5'>Customer Obsessed</h3>
+    <p className='text-white  font-semibold px-5 '>Kepuasan konsumen merupakan hal yang paling kami jaga. Kepuasan Anda menjadi pemacu semangat untuk kami agar terus berinovasi.</p>
+    </div>
 
-              <motion.div 
-               whileHover={{ scale: 1.1 }}
-              className="w-[18rem] h-[18rem] md:w-[18rem] md:h-[18rem] py-20  bg-about1 ">
-                  <div className='backdrop-blur-lg w-[18rem] h-[18rem] md:w-[18rem] md:h-[18rem] py-20 -mt-20 bg-no-repeat'>
-                <p className='text-center px-5 py-2 text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-              </motion.div>
-              <motion.div 
-              whileHover={{ scale: 1.1 }}
-              className=" w-[18rem] h-[18rem] md:w-[18rem] md:h-[18rem] py-20 bg-blue-500">
-                 <img src="../aset/jam.svg" alt="toolkit" className='w-24 mx-auto ' />
-                <p className='text-center px-5 py-2 text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </motion.div>
-              <motion.div
-              whileHover={{ scale: 1.1 }}
-              className="w-[18rem] h-[18rem] md:w-[18rem] md:h-[18rem] py-20 bg-pink-500">
-                 <img src="../aset/cs.svg" alt="toolkit" className='w-24 mx-auto ' />
-                <p className='text-center px-5 py-2 text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </motion.div>
-              <motion.div
-              whileHover={{ scale: 1.1 }}
-              className="w-[18rem] h-[18rem] py-20 md:w-[18rem] md:h-[18rem] bg-purple-600">
-                  <img src="../aset/tutor.svg" alt="toolkit" className='w-24 mx-auto ' />
-                <p className='text-center px-5 py-2 text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </motion.div>
-            </div>
-          </div>
-        </div>
+
+    <div className='w-full md:w-3/12 relative mb-24 md:mb-0 bg-orange-600 h-[25rem] rounded-[2rem] shadow-2xl shadow-orange-500/40'>
+    <Image
+    alt="Picture of the author"
+    width={170}
+    height={170} src="/asset/inte.png" className='absolute -top-20 left-1/2 -translate-x-1/2'/> 
+    <h3 className='text-white text-3xl pb-7 font-bold mt-32 px-5'>Integrity</h3>
+    <p className='text-white px-5  font-semibold'>Displin, jujur, dan dedikasi merupakan hal yang kami jaga agar terus mendapat kepercayaan dari konsumen.</p>
+    </div>
+
+
+
+    <div className='w-full md:w-3/12 relative mb-24 md:mb-0 bg-purple-600 h-[25rem] rounded-[2rem] shadow-2xl shadow-purple-500/40'>
+    <Image
+    alt="Picture of the author"
+    width={170}
+    height={170} src="/asset/ino.png" className='absolute -top-20 left-1/2 -translate-x-1/2'/> 
+    <h3 className='text-white text-3xl pb-7 font-bold mt-32 px-5'>Inovatif</h3>
+    <p className='text-white px-5  font-semibold'>Kami akan terus menerus menciptakan hal-hal atau pun terobosan yang baru demi kenyamanan konsumen</p>
+    </div>
+  </div>
        
   
   )

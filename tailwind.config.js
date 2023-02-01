@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        'poppins':['Poppins','sans-serif']
+        'poppins':['Poppins','sans-serif'],
+        'maison': ['Maison Neue', 'sans-serif'],
       },
       backgroundImage: {
         'aboutbg': "url('/asset/bgsepatu.webp')",
