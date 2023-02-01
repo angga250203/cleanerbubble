@@ -1,11 +1,17 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import {motion} from 'framer-motion'
 
 function Blogawal() {
   return (
-    <div className='bg-gray-900 '>
-        <div className='bg-white rounded-t-[2rem] md:rounded-t-[5rem] relative'>
+    <div className='bg-gray-900  '>
+        <motion.div
+        initial={{opacity:0.5,y:500}}
+        whileInView={{opacity:1,y:0}}
+        transition={{duration:0.7}}
+        viewport={{ once: true }}
+        className='bg-white rounded-t-[2rem] md:rounded-t-[5rem] relative'>
         <Image
                  alt="Picture of the author"
                  width={350}
@@ -55,7 +61,7 @@ function Blogawal() {
                     </button>
         </Link>
         </div>
-        </div>
+        </motion.div>
     </div>
   )
 }

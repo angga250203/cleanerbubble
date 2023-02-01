@@ -3,6 +3,7 @@ import Footer from "@/components/Home/footer"
 import Navbar from "@/components/Home/navbar"
 import Head from "next/head"
 import Image from "next/image"
+import {motion} from 'framer-motion'
 
 export default function Home() {
     return (
@@ -16,16 +17,28 @@ export default function Home() {
 
         <Navbar/>
       
-            <div className="bg-img h-[60vh] -mt-24 md:h-[80vh] px-5 ">
+            <motion.div 
+             initial={{opacity:0,scale:1.3}}
+             animate={{opacity:1,scale:1}}
+             transition={{delay:0.6,duration:0.5}}
+             viewport={{ once: true }}
+            className="bg-img h-[60vh] -mt-24 md:h-[80vh] px-5 ">
                 <div className="h-[30vh] md:h-[80vh] backdrop-blur-sm relative ">
-            <h3 className="text-center font-maison text-4xl md:text-5xl font-bold pt-52 md:pt-32 text-white pb-5 ">Tentang Kami</h3>
-            <p className="text-white text-xl font-maison  text-center">Ketahui perjalanan kami, dan orang-orang di belakangnya.</p>
+            <motion.h3 
+           
+            className="text-center font-maison text-4xl md:text-5xl font-bold pt-52 md:pt-32 text-white pb-5 ">Tentang Kami</motion.h3>
+            <motion.p 
+             
+            className="text-white text-xl font-maison  text-center">Ketahui perjalanan kami, dan orang-orang di belakangnya.</motion.p>
+            <motion.div
+            
+            >
             <Image
           alt="Picture of the author"
           width={250}
-          height={250} src="/asset/p1.png" className='absolute  left-1/2 -translate-x-1/2 w-[10rem] md:w-[15rem]'/>
+          height={250} src="/asset/p1.png" className='absolute  left-1/2 -translate-x-1/2 w-[10rem] md:w-[15rem]'/></motion.div>
             </div>
-            </div>
+            </motion.div>
 
           <div className="bg-gray-900">
             <div className="max-w-6xl mx-auto px-5 relative ">

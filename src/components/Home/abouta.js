@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import {motion} from 'framer-motion'
 
 function About() {
   return (
@@ -8,13 +9,18 @@ function About() {
         <div className='max-w-6xl mx-auto  px-5'>
             <h3 className='text-white font-bold text-3xl md:text-5xl font-maison text-center py-20 md:py-16'>Tentang kami</h3>
            <div className='flex flex-wrap '>
-            <div className='w-full md:w-1/2 py-2 md:py-5 mb-5 px-12'>
+            <motion.div 
+             initial={{opacity:0,scale:1.3}}
+             whileInView={{opacity:1,scale:1}}
+             transition={{delay:0.7,duration:1}}
+             viewport={{ once: true }}
+            className='w-full md:w-1/2 py-2 md:py-5 mb-5 px-12'>
                 <Image
                  src="/asset/hero3.png"
                  alt="Picture of the author"
                  width={350}
                  height={350} className="" />
-            </div>
+            </motion.div>
             <div className='w-full md:w-1/2 mt-5 md:mt-12'>
               <div className='bg-white rounded-xl w-[7rem] text-center '>
                 <h3 className='text-2xl text-black  font-semibold font-poppins'>Cleaner</h3>
