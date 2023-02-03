@@ -7,7 +7,7 @@ import Link from 'next/link'
 function Hero() {
 
   return (
-    <div className=' bg-gradient-to-r h-screen -mt-24 from-black to-gray-400 '>
+    <div className=' bg-gradient-to-r h-screen -mt-24 from-black to-gray-900 '>
    
     <div className='max-w-6xl mx-auto flex justify-center flex-wrap px-5 pt-56  '>
         <div className='w-full md:w-1/2'>
@@ -28,7 +28,7 @@ function Hero() {
         alt="Picture of the author"
         width={450}
         height={450}
-        className=' mt-12 md:-mt-12 w-[15rem] md:w-[30rem]' />
+        className=' mt-12 md:-mt-12 w-[20rem] md:w-[30rem]' />
         </motion.div>
 
     </div>

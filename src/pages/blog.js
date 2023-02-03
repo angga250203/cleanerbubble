@@ -4,6 +4,8 @@ import Head from 'next/head'
 import Navbar from '@/components/Home/navbar'
 import Footer from '@/components/Home/footer'
 import Link from 'next/link'
+import { motion } from 'framer-motion'
+
 
 function Blog() {
   return (
@@ -22,7 +24,12 @@ function Blog() {
         <h3 className='text-4xl font-bold text-white'>Berita Terbaru</h3>
         <p className='text-gray-100 text-xl pb-20'>Temukan berita seputar sepatu dan lain-lain terbaru yang dapat menambah wawasan kita</p>
            <div className='flex flex-wrap justify-center  pb-24 md:space-x-12 lg:space-x-24 '>
-                <div className='w-full md:w-3/12 relative pb-20'>
+                <motion.div 
+                 initial={{opacity:0,scale:1.2}}
+                 whileInView={{opacity:1,scale:1}}
+                 transition={{duration:0.5,delay:0.3}}
+                 viewport={{ once: true }}
+                className='w-full md:w-3/12 relative pb-20'>
                     <Image
                  alt="Picture of the author"
                  width={350}
@@ -31,16 +38,26 @@ function Blog() {
                     <p className='text-gray-300 mx-9 md:mx-0 '>Informasi/ 23 januari 2023</p>
                     
                   
-                </div>
-                <div className='w-full md:w-3/12 relative pb-20'>
+                </motion.div>
+                <motion.div 
+                 initial={{opacity:0,scale:1.2}}
+                 whileInView={{opacity:1,scale:1}}
+                 transition={{duration:0.5,delay:0.3}}
+                 viewport={{ once: true }}
+                className='w-full md:w-3/12 relative pb-20'>
                     <Image
                  alt="Picture of the author"
                  width={350}
                  height={350} src='/asset/casual.jpg' className='h-[10rem] w-[18rem] object-cover rounded-md absolute left-1/2 -translate-x-1/2'/>
                     <h3 className=' mt-44 mx-9 md:mx-0 pb-2 font-semibold text-2xl font-poppins text-white'>Adidas Spezial identik dengan suporter</h3>
                     <p className=' text-gray-300 mx-9 md:mx-0'>Informasi/ 23 januari 2023</p>
-                </div>
-                <div className='w-full md:w-3/12 relative pb-20'>
+                </motion.div>
+                <motion.div 
+                 initial={{opacity:0,scale:1.2}}
+                 whileInView={{opacity:1,scale:1}}
+                 transition={{duration:0.5,delay:0.3}}
+                 viewport={{ once: true }}
+                className='w-full md:w-3/12 relative pb-20'>
                     <Image
                  alt="Picture of the author"
                  width={350}
@@ -48,7 +65,7 @@ function Blog() {
                     <h3 className=' mt-44 mx-9 md:mx-0 pb-2 font-semibold text-2xl font-poppins text-white'>Asal usul bentuk dari airmax-97</h3>
                     <p className=' text-gray-300 mx-9 md:mx-0'>Informasi/ 23 januari 2023</p>
                     
-                </div>
+                </motion.div>
                
                
             </div>

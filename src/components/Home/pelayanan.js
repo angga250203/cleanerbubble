@@ -20,10 +20,7 @@ function Pelayanan() {
       }
   return (
     <motion.div 
-    initial={{opacity:0.5,x:900}}
-    whileInView={{opacity:1,x:0}}
-    transition={{duration:0.5,type:'spring',stiffness:300,}}
-    viewport={{ once: true }}
+   
     className='mt-32  md:mt-16 md:mb-16 max-w-6xl mx-auto px-5 md:py-12'>
         <div className='flex flex-wrap mb-12 md:space-x-12 lg:space-x-16'>
             <div className='w-full md:w-5/12'>
